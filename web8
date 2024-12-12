@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta http-equiv="content-type" content="text/html" charset="UTF-8">
+    <meta name="description" content="Лабораторна №8">
+    <meta name="author" content="Студент групи КН-31заоч, Москва Богдан">
+    <meta name="keywords" content="HTML, web, дизайн">
+    <title>Лабораторна №8</title>
+    <link rel="stylesheet" href="static/css/lab8.css">
+    <style>
+        body {
+            background-color: #f0f0f0;
+            background-image: url('static/cat.gif');
+            background-repeat: repeat-x;
+            background-attachment: fixed;
+            background-position: top left;
+            background-size: auto;
+        }
+
+        p:nth-of-type(1) {
+            text-align: right;
+        }
+
+        p:nth-of-type(2) {
+            text-align: center;
+        }
+
+        p:nth-of-type(3) {
+            text-align: left;
+        }
+
+        p:nth-of-type(4) {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h1>Це майже найпростіший приклад HTML-документа</h1>
+
+    <p>Lorem Ipsum is simply <span class="bluespan">dummy</span> text of the printing and typesetting industry.</p>
+
+    <p>Lorem Ipsum has been <span class="bluespan">the</span> industry's standard dummy text ever since the 1500s.</p>
+
+    <p>When an unknown printer <span class="bluespan">took</span> a galley of type and scrambled it to make a type specimen book.</p>
+
+    <p>It has survived not <span class="bluespan">only</span> five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+
+    <p>It was popularised in <span class="bluespan">the</span> 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+
+    <p>And more recently with <span class="bluespan">desktop</span> publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+    <p><span class="capitel">Lorem</span> Ipsum is simply <span class="bluespan">dummy</span> text of the printing and typesetting industry.</p>
+
+    &reg; &copy; &darr; &pi; &lambda; &trade;
+</body>
+</html>
